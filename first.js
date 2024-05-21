@@ -33,9 +33,32 @@ console.log(x)
 
 const y = 45
 
-y = 567
-
-y = 678
-
 console.log()
+
+// Let's try to understand the scope of var, let and const
+
+var abc = 123
+
+{
+    var abc = 780
+    console.log(abc)
+}
+
+// var has a global scope, so it can be defined and accessed from anywhere in the code
+
+
+// Seeing the scope of let
+
+let xyz = 787976;
+console.log("printing variable outside the block: " + xyz)
+// Block-1
+{
+    let xyz = 68789
+    console.log("printing variable inside the block: " +xyz)
+}
+// Block-2
+{
+    let xyz = 786812
+    console.log("printing variable inside another block: " +xyz)
+}
 
