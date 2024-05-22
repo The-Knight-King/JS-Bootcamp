@@ -30,10 +30,34 @@ console.log("Loop has ended")
 
 // do-while loop -> it works exactly like the while loop but there is just a smnall difference between both which is that the in while loop the condition is checked in the very start and it will only execute if the condition is true, but in case of do-while the condition is checked later and it guranteed that the loop will execute at least 1 time.
 
-console.log("printing using do-while loop below");
+// console.log("printing using do-while loop below");
 
-let a = 20;
-do {
-    console.log("a:",a);
-    a++;
-} while (a<=10);
+// let a = 20;
+// do {
+//     console.log("a:",a);
+//     a++;
+// } while (a<=10);
+
+// for-of loop
+
+console.log("Printing using for-of loop")
+
+let str = "ApnaCollege"
+
+for(let i of str) {
+    console.log("i=",i);
+}
+
+// we can use this for-of loop to calculate the length of the strings.
+
+console.log("Calculate the length of the str bellow:")
+let str2 = "JavaScript";
+console.log("Our string:",str2)
+let len = 0;
+
+for (let i of str2) {
+    len++;
+}
+
+console.log("Length of our string is:", len);
+
