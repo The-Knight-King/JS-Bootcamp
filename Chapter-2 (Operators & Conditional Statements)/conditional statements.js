@@ -62,4 +62,3 @@ let age = prompt("Enter your age below:");
 let result = age >= 18 ? "Can Vote!" : "Cannot Vote!";
 
 console.log(result)
-
