@@ -38,7 +38,7 @@ console.log("Loop has ended")
 //     a++;
 // } while (a<=10);
 
-// for-of loop
+// for-of loop -> it is mostly used to access strings
 
 console.log("Printing using for-of loop")
 
@@ -61,3 +61,17 @@ for (let i of str2) {
 
 console.log("Length of our string is:", len);
 
+// for in loop -> this loop is used to access/print keys of an object.
+
+let student = {
+    name: "Rahul Kumar",
+    age: 20,
+    cgpa: 7.6,
+    isPass: true
+};
+
+console.log("Our student oject:",student)
+
+for (let key in student) {
+    console.log("key = ",key,"and Value = ",student[key]);
+}
