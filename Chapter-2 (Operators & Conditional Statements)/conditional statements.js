@@ -34,10 +34,22 @@ console.log("mode:",mode)
 
 // How to find if a number is `even` or `odd` using if-else:
 
-let num = prompt("Enter a number: ");
+// let num = prompt("Enter a number: ");
 
-if (num % 2 == 0) {
-    console.log("You entered:",num,"which is an even number!");
+// if (num % 2 == 0) {
+//     console.log("You entered:",num,"which is an even number!");
+// } else {
+//     console.log("You entered:",num,"which is an odd number!");
+// }
+
+// else-if statements
+
+let person_age = prompt("Enter your age below:");
+
+if (person_age < 18) {
+    console.log("You are a Junior!")
+} else if (person_age >= 60) {
+    console.log("You are a Senior Citizen!")
 } else {
-    console.log("You entered:",num,"which is an odd number!");
+    console.log("You are an Adult!")
 }
