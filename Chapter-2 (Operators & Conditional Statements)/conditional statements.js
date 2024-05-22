@@ -4,17 +4,17 @@
 
 // if-statment
 
-let age = 25;
+// let age = 25;
 
-console.log("age:",age)
+// console.log("age:",age)
 
-if (age >= 18) {
-    console.log("Eligible to vote!");
-}
+// if (age >= 18) {
+//     console.log("Eligible to vote!");
+// }
 
-if (age < 18) {
-    console.log("Not eligible to vote!");
-}
+// if (age < 18) {
+//     console.log("Not eligible to vote!");
+// }
 
 // if-else statement
 
@@ -44,12 +44,22 @@ console.log("mode:",mode)
 
 // else-if statements
 
-let person_age = prompt("Enter your age below:");
+// let person_age = prompt("Enter your age below:");
 
-if (person_age < 18) {
-    console.log("You are a Junior!")
-} else if (person_age >= 60) {
-    console.log("You are a Senior Citizen!")
-} else {
-    console.log("You are an Adult!")
-}
+// if (person_age < 18) {
+//     console.log("You are a Junior!")
+// } else if (person_age >= 60) {
+//     console.log("You are a Senior Citizen!")
+// } else {
+//     console.log("You are an Adult!")
+// }
+
+// Ternary Operators - it works on 3 operands ek saath, basically it's just a compact if-else
+// Syntax -> condition ? true output:false output
+
+let age = prompt("Enter your age below:");
+
+let result = age >= 18 ? "Can Vote!" : "Cannot Vote!";
+
+console.log(result)
+
