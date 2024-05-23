@@ -14,8 +14,6 @@
 
 // PQ2. For a given array with prices of 5 items -> [250, 645, 300, 900, 50]. All items have an offer of 10% off on them. Change the array to store the final price of the items after applying the offer.
 
-// Method-1 for this PQ.
-
 let items = [250, 645, 300, 900, 50];
 
 for (let i=0; i<items.length; i++) {
