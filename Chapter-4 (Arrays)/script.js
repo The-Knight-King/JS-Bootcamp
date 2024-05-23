@@ -17,3 +17,17 @@ marks[2] = 41;
 console.log("Replacing the value at index 2");
 console.log("Updated Marks:",marks);
 
+// Looping over Arrays - print all the elements of an array using loops
+
+let heroes = ['Iron Man', 'Captain America', 'Hulk', 'Thor', 'Flash', 'Batman', 'Spiderman'];
+console.log("Our Heroes Array:", heroes);
+
+console.log("Looping over our Heroes Array:")
+for (let hero of heroes) {
+    console.log(hero);
+}
+
+// Alternate way to write the above loop
+for (let i=0;i < heroes.length; i++) {
+    console.log("Our Hero is:",heroes[i]);
+}
