@@ -1,3 +1,4 @@
+// ******* Part-1 *******
 // PQ1. Create a H2 heading element with text - "Hello JavaScript". Append "from Apna College students" to this text using JS.
 
 let heading = document.querySelector("#pq-1");
@@ -16,3 +17,5 @@ for (let div of divs) {
     div.innerText = `Unique Value ${idx}`;  //changing the original div text to this text
     idx++;
 };
+
+// ******* Part-2 *******
