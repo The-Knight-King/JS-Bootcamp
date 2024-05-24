@@ -17,3 +17,13 @@ button {
 .hidden {
     visibility: hidden;
 }
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: cyan;
+    margin: 15px;
+    text-align: center;
+    display: inline-block;
+}
