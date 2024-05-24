@@ -2,6 +2,14 @@ body {
     background-color: bisque;
 }
 
-h2 {
+
+.heading {
     text-align: center;
+    background-color: brown;
+    color: bisque;
+}
+
+button {
+    background-color: blue;
+    color: white;
 }
