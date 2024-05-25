@@ -1,5 +1,5 @@
 body {
-    background-color: blanchedalmond;
+    background-color: aliceblue;
 }
 
 #box-1 {
@@ -9,4 +9,12 @@ body {
     border: 1px solid black;
     margin-top: 10px;
     text-align: center;
+}
+
+#toggle {
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 3px 9px;
+    background-color: #212121;
+    color: aliceblue;
 }
