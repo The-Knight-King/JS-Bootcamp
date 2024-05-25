@@ -11,10 +11,36 @@ body {
     text-align: center;
 }
 
-#toggle {
+.toggle {
     margin-top: 10px;
     font-size: 15px;
     padding: 3px 9px;
     background-color: #212121;
     color: aliceblue;
+}
+
+.dark {
+    background-color: #212121;
+    color: aliceblue;
+}
+
+.dark-button {
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 3px 9px;
+    background-color: #212121;
+    color: aliceblue;
+}
+
+.light-button {
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 3px 9px;
+    background-color: aliceblue;
+    color: #212121;
+}
+
+.light {
+    background-color: aliceblue;
+    color: #212121;
 }
