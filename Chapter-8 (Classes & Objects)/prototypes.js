@@ -1,4 +1,4 @@
-// Classes and Objects in JS
+//  We will learn abt Prototypes in JS
 
 const student = {
     fullName: "Akshit Mittal",
